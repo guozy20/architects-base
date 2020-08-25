@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/architects-base.iml" filepath="$PROJECT_DIR$/architects-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-parttern/design-parttern.iml" filepath="$PROJECT_DIR$/design-parttern/design-parttern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gpervip-code-sources/gpervip-code-sources.iml" filepath="$PROJECT_DIR$/gpervip-code-sources/gpervip-code-sources.iml" />
+    </modules>
+  </component>
+</project>
