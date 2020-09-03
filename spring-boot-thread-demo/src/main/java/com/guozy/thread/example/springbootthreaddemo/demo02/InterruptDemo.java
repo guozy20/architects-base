@@ -14,7 +14,7 @@ public class InterruptDemo implements Runnable {
     }
 
     public static void main(String[] args) {
-        Thread thread = new Thread(new InterruptDemo);
+        Thread thread = new Thread(new InterruptDemo());
         thread.start();
 //        thread.stop(); // 不建议使用
         thread.interrupt(); // 设置interrupt=true
