@@ -8,6 +8,9 @@ import org.openjdk.jol.info.ClassLayout;
 public class ClasslayOutDemo {
     public static void main(String[] args) {
         ClasslayOutDemo classlayOutDemo = new ClasslayOutDemo();
-        System.out.println(ClassLayout.parseInstance(classlayOutDemo).toPrintable());
+        synchronized (classlayOutDemo) {
+            System.out.println("locking");
+            System.out.println(ClassLayout.parseInstance(classlayOutDemo).toPrintable());
+        }
     }
 }
