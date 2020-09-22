@@ -4,13 +4,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.concurrent.CountDownLatch;
 
 
-/**
- * @BelongsProject: huxidao2_one_svn3
- * @BelongsPackage: PACKAGE_NAME
- * @Author: gaoshaomeng
- * @CreateTime: 2020-05-21 09:56
- * @Description: ${Description}
- */
 public class ImageUtils {
 
     public static void main(String args[]) throws UnsupportedEncodingException, InterruptedException {

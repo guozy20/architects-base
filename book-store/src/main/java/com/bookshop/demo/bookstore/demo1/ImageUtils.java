@@ -8,15 +8,15 @@ import java.util.concurrent.CountDownLatch;
 public class ImageUtils {
 
     public static void main(String args[]) throws UnsupportedEncodingException, InterruptedException {
-        final Account a = new Account().setBalance(100000000);
-        final Account b = new Account().setBalance(100000000);
-        final Account c = new Account().setBalance(100000000);
+        final Account a = new Account().setBalance(10000);
+        final Account b = new Account().setBalance(10000);
+        final Account c = new Account().setBalance(10000);
 
         System.out.println(a.getBalance());
         System.out.println(b.getBalance());
         System.out.println(c.getBalance());
 
-        final CountDownLatch count = new CountDownLatch(3000);
+        final CountDownLatch count = new CountDownLatch(30000);
         for (int i = 0; i < 10000; i++) {
             new Thread(new Runnable() {
                 @Override
