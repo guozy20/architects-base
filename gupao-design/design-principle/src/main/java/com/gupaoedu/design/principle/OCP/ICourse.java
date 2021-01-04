@@ -1,4 +1,4 @@
-package com.gupaoedu.design.principle.OP;
+package com.gupaoedu.design.principle.OCP;
 
 /**
  * @ProjectName gupao-design

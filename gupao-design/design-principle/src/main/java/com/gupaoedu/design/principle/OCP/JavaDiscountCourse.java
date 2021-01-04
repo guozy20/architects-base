@@ -1,4 +1,4 @@
-package com.gupaoedu.design.principle.OP;
+package com.gupaoedu.design.principle.OCP;
 
 /**
  * @ProjectName gupao-design
@@ -12,11 +12,7 @@ public class JavaDiscountCourse extends JavaCourse {
         super(id, name, price);
     }
 
-    public Double getOriginPrice(){
-        return super.getPrice();
-    }
-
-    public Double getPrice(){
-        return super.getPrice() * 0.8;
+    public Double getDiscountPrice() {
+        return super.getPrice() * 0.6;
     }
 }
